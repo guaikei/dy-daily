@@ -6,6 +6,11 @@ name: dy-daily
 description: 抖音公开数据每日热点搜索（只读）：关键词搜索、博主作品、作品详情、评论、热榜。触发：抖音搜索、热搜、评论、需求挖掘、痛点、作品详情、博主作品、对标账号、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.1
+display_name: "抖音每日热点搜索｜高赞排序·时间筛选·行业热点·每日速览"
+display_name_en: "Douyin Daily"
+description_zh: "抖音每日热点搜索数据源（只读）：关键词搜索视频与图文、用户/达人搜索、博主作品与粉丝数据、单条作品详情、视频图文评论、实时热榜，输出结构化 JSON 供 AI 直接做爆款选题、对标账号、公域获客、账号监控与热点追踪；支持综合/最多点赞/最新排序与近1日/近7日时间、时长、内容类型（视频/图文）多维筛选，可按剧本做需求挖掘与公域获客（搜索→评论）。不登录、不发布、不点赞、不评论、不关注。按量单次最多 1 万条；包月视频搜索/用户搜索/作品最多 30、评论最多 50（详情与热榜无条数限制），超限返回 PLAN_LIMIT（退出码 1），降 limit 或升级须用户同意后再跑。适用于每日热点速览、行业热点追踪、高赞内容分析与竞品热点对比。"
+description_en: "Read-only Douyin daily hot-search data source: keyword search for videos and image posts, user and creator search, creator posts and follower stats, single post detail, video and image-post comments, and real-time trending lists - structured JSON for trending topic discovery, benchmark account research, lead acquisition, account monitoring and daily hot-content tracking. Supports relevance / most-liked / latest sorting plus 1-day / 7-day time windows, duration and content-type filters, with demand-mining and lead-acquisition playbooks (search to comments). No login, posting, liking, commenting or following. Pay-per-use caps at 10,000 items; monthly plans cap video search/user search/creator-videos at 30 and comments at 50 (details and hot lists unlimited), returning PLAN_LIMIT (exit code 1) on breach - lower --limit or upgrade with user consent before retrying. Ideal for daily hot-list overviews, industry trend tracking, top-liked content analysis and competitor hot-topic comparison."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
